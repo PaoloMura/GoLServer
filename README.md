@@ -15,7 +15,8 @@ To run the Game of Life simulation, complete the following steps:
 1. Start the server using the command `go run .` while in the GoLServer directory
 1. Start the client using the same command while in the GoLClient directory
 1. Use keypresses to control behaviour of the client:
-'s' = save current world
-'p' = pause/unpause the simulation
-'q' = quit the client without killing the server
-'k' = kill the server and quit the client
+
+'s' = save current world 
+| 'p' = pause/unpause the simulation
+| 'q' = quit the client without killing the server
+| 'k' = kill the server and quit the client
