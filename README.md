@@ -12,8 +12,7 @@ GoLServer contains the engine for the Game of Life simulation. It contains the f
 
 To run the Game of Life simulation, complete the following steps:
 
-1. Start the server using the command below while in the GoLServer directory
-`go run .`
+1. Start the server using the command `go run .` while in the GoLServer directory
 1. Start the client using the same command while in the GoLClient directory
 1. Use keypresses to control behaviour of the client:
 's' = save current world
