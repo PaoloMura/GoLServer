@@ -8,6 +8,8 @@ GoLServer contains the engine for the Game of Life simulation. It contains the f
 * Distributor - delegates work to the workers
 * Worker - processes its allocated strip of the Game of Life
 
+See `report.pdf` for more information on the project. See my GoLClient repository for the client-side controller code. See my GoLParallel repository for an alternative parallel version of the simulation.
+
 ### How to run
 
 To run the Game of Life simulation, complete the following steps:
@@ -17,6 +19,6 @@ To run the Game of Life simulation, complete the following steps:
 1. Use keypresses to control behaviour of the client:
 
 's' = save current world 
-| 'p' = pause/unpause the simulation
+| 'p' = pause/resume the simulation
 | 'q' = quit the client without killing the server
 | 'k' = kill the server and quit the client
